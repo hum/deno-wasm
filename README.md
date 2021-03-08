@@ -1,6 +1,10 @@
 # deno-wasm
 
-Why is this so easy? Hundreds of engineers have spent countless hours so we can even do this. This is nothing but amazing.
+All in all, this whole demo (excluding `wasm_exec.js`) is about 322 Bytes of code.
+
+Hundreds of engineers have spent countless hours working on something that's almost indistinguishable from magic. Running a compiled code from Go inside JavaScript through [Deno](https://github.com/denoland/deno).
+
+ All it takes is 322 Bytes to expose code from a different language inside a JavaScript runtime. (Let's not talk about the humongous size of the Go binary though. Just that has 2MB on its own.)
 
 ### Running
 1. Create your Golang file. For the purpose of example there is `main.go`.
